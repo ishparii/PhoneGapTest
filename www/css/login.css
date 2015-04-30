@@ -1,0 +1,201 @@
+body {
+     margin: 0; 
+     background: #ffd65e; /* Old browsers */
+     background: -moz-radial-gradient(center, ellipse cover,  #ffd65e 0%, #febf04 100%); /* FF3.6+ */
+     background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#ffd65e), color-stop(100%,#febf04)); /* Chrome,Safari4+ */
+     background: -webkit-radial-gradient(center, ellipse cover,  #ffd65e 0%,#febf04 100%); /* Chrome10+,Safari5.1+ */
+     background: -o-radial-gradient(center, ellipse cover,  #ffd65e 0%,#febf04 100%); /* Opera 12+ */
+     background: -ms-radial-gradient(center, ellipse cover,  #ffd65e 0%,#febf04 100%); /* IE10+ */
+     background: radial-gradient(ellipse at center,  #ffd65e 0%,#febf04 100%); /* W3C */
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd65e', endColorstr='#febf04',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+     }
+
+     #header {
+    height: 50px;
+    margin: 0; 
+    padding: 5px; 
+    background: #b5bdc8; /* Old browsers */
+    background: -moz-linear-gradient(top,  #b5bdc8 0%, #828c95 0%, #28343b 100%); /* FF3.6+ */ 
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b5bdc8), color-stop(0%,#828c95), color-stop(100%,#28343b)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #b5bdc8 0%,#828c95 0%,#28343b 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #b5bdc8 0%,#828c95 0%,#28343b 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #b5bdc8 0%,#828c95 0%,#28343b 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #b5bdc8 0%,#828c95 0%,#28343b 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=0 ); /* IE6-9 */
+     }
+
+
+     /*#navbar{
+     }
+
+    #navbar ul { 
+     list-style-type: none; 
+    text-align: center;
+    } 
+
+    #navbar ul li {  
+    display: inline-block;
+    padding: 8px;
+    background: transparent;
+    } 
+
+    #navbar ul li button {
+    display: inline-block;
+    padding: 8px;
+    background: transparent;
+    font-weight: bold;
+    color: #FFFFFF;
+    border:transparent;
+    }
+
+    #navbar ul li a:hover { 
+    color: #0EC6D7; 
+    background-color: #8B008B; 
+    }*/
+
+  #logo{
+    top:10px;
+   left: 10px;
+   position: absolute;
+   height: 30px;
+   width: 85px;
+   }
+
+h3 { 
+  margin: 0; 
+}    
+	
+a {
+  color: #999;
+  text-decoration: none;
+}
+
+a:hover { 
+  color: #1dabb8; 
+}
+
+fieldset {
+  border: none;
+  margin: 0;
+}
+
+input {
+  font-family: inherit;
+  font-size: inherit;
+  margin: 0;
+  -webkit-appearance: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+input[type="submit"] { cursor: pointer; }
+
+.clearfix { *zoom: 1; }
+
+.clearfix:before {
+  content: "";
+  display: table; 
+} 
+
+.clearfix:after {
+  clear: both;
+  content: "";
+  display: table; 
+}
+
+/* ---------- LOGIN-FORM ---------- */
+
+#login-form {
+  margin: 50px auto;
+  width: 300px;
+}
+
+#login-form h3 {
+  background-color: #545454;
+  border-radius: 5px 5px 0 0;
+  color: #fff;
+  font-size: 14px;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#login-form fieldset {
+  background: #fff;
+  border-radius: 0 0 5px 5px;
+  padding: 20px;
+  position: relative;
+}
+
+#login-form fieldset:before {
+  background-color: #fff;
+  content: "";
+  height: 8px;
+  left: 50%;
+  margin: -4px 0 0 -4px;
+  position: absolute;
+  top: 0;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  width: 8px;
+}
+
+#login-form input {
+  font-size: 14px;
+}
+
+#user {
+  border: 1px solid #3b3b3b;
+  border-top: #1a1a1a;
+  padding: 5px 9px;
+  width: 238px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  width: 238px;
+}
+
+#pass {
+  border: 1px solid #3b3b3b;
+  border-top: #1a1a1a;
+  padding: 5px 9px;
+  width: 238px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  width: 238px;
+}
+
+#login {
+  background: #545454;
+  border-radius: 5px;
+  color: #fff;
+  float: right;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 9px 12px;
+  border:none;
+}
+
+#login-form input[type="submit"]:hover { 
+  background: #198d98; 
+}
+
+#login-form footer {
+  font-size: 12px;
+  margin-top: 16px;
+}
+
+.info {
+  background: #e5e5e5;
+  border-radius: 50%;
+  display: inline-block;
+  height: 20px;
+  line-height: 20px;
+  margin: 0 10px 0 0;
+  text-align: center;
+  width: 20px;
+}
